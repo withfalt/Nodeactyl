@@ -62,7 +62,7 @@ function makeData(Version, NameOfServer, OwnerID, NestID, EggID, DockerImage,
 			'additional': [],
 		},
 		'deploy': {
-			'locations': [1],
+			'locations': [1, 2],
 			'dedicated_ip': false,
 			'port_range': [],
 		},
