@@ -12,9 +12,9 @@
   "author": "Dalton Burchard",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Burchard36/Nodeactyl"
+    "url": "https://github.com/withfalt/nodeactyl"
   },
-  "homepage": "https://github.com/Burchard36/Nodeactyl",
+  "homepage": "https://github.com/withfalt/nodeactyl",
   "dependencies": {
     "axios": "^0.19.2"
   }
