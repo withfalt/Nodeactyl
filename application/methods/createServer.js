@@ -41,34 +41,26 @@ function makeData(Version, NameOfServer, OwnerID, NestID, EggID, DockerImage,
 			'swap': Swap,
 			'disk': Disk,
 			'io': IO,
-			'cpu': CPU,
+			'cpu': CPU
 		},
 		'feature_limits': {
 			'databases': AmountOfDatabases,
 			'allocations': AmountOfAllocations,
+			'backups': 3
 		},
-		'environment': {
-			'DL_VERSION': Version,
-			'SERVER_JARFILE': 'server.jar',
-			'VANILLA_VERSION': Version,
-			'BUNGEE_VERSION': Version,
-			'PAPER_VERSION': Version,
-			'MC_VERSION': Version,
-			'BUILD_NUMBER': Version,
-			'INSTALL_REPO': Version,
-		},
+		'environment': {},
 		'allocation': {
 			'default': 1,
-			'additional': [],
+			'additional': []
 		},
 		'deploy': {
 			'locations': [1, 3],
 			'dedicated_ip': false,
-			'port_range': [],
+			'port_range': []
 		},
-		'start_on_completion': true,
+		'start_on_completion': false,
 		'skip_scripts': false,
-		'oom_disabled': true,
+		'oom_disabled': true
 	};
 }
 module.exports = createServer;
